@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		700F7D0F29A2B5A900DF1A23 /* DeveloperInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700F7D0E29A2B5A900DF1A23 /* DeveloperInfoView.swift */; };
+		700F7D1129A2B60000DF1A23 /* Developer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700F7D1029A2B60000DF1A23 /* Developer.swift */; };
+		701D5A3F29BFB00100688C4D /* WheelchairCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701D5A3E29BFB00100688C4D /* WheelchairCard.swift */; };
+		703AED83299AC5A200D16EB3 /* WheelchairHtrView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703AED82299AC5A200D16EB3 /* WheelchairHtrView.swift */; };
+		703AED85299AC5C800D16EB3 /* WheelchairTisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703AED84299AC5C800D16EB3 /* WheelchairTisView.swift */; };
+		703AED87299AC60200D16EB3 /* WheelchairBrodaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703AED86299AC60200D16EB3 /* WheelchairBrodaView.swift */; };
+		703AED89299AC61D00D16EB3 /* WheelchairPwcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703AED88299AC61D00D16EB3 /* WheelchairPwcView.swift */; };
+		703AED8B299AC66000D16EB3 /* WheelchairSeatingMattersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703AED8A299AC66000D16EB3 /* WheelchairSeatingMattersView.swift */; };
+		7040575F29A15DC000417A7E /* HomeWelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7040575E29A15DC000417A7E /* HomeWelcomeScreen.swift */; };
+		7041015D27869A3000014E55 /* TerminologyHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7041015C27869A3000014E55 /* TerminologyHeaderView.swift */; };
+		704CF94E2B8BC6FE0018079B /* HomeViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704CF94D2B8BC6FE0018079B /* HomeViewScreen.swift */; };
+		704CF9502B8BC76C0018079B /* ScreenSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704CF94F2B8BC76C0018079B /* ScreenSettings.swift */; };
+		7057A8A92A0D613900430C96 /* FactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7057A8A82A0D613900430C96 /* FactsView.swift */; };
+		705EB66029B7B38900BFAE92 /* StudyQuizButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705EB65F29B7B38900BFAE92 /* StudyQuizButton.swift */; };
+		705ED5F42B9AC6EC00280A1E /* ModelWheelchairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705ED5F32B9AC6EC00280A1E /* ModelWheelchairs.swift */; };
+		706068D728AD865A00377026 /* CustomViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706068D628AD865A00377026 /* CustomViewModifiers.swift */; };
+		70670F5B2BAA505700C7C32E /* SolutionToCaseFiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70670F5A2BAA505700C7C32E /* SolutionToCaseFiveView.swift */; };
+		70670F5D2BAA508700C7C32E /* SolutionToCaseSixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70670F5C2BAA508700C7C32E /* SolutionToCaseSixView.swift */; };
+		70670F5F2BAA51BD00C7C32E /* Case5Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70670F5E2BAA51BD00C7C32E /* Case5Button.swift */; };
+		70670F612BAA521C00C7C32E /* Case5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70670F602BAA521C00C7C32E /* Case5View.swift */; };
+		70670F632BAA526C00C7C32E /* Case6View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70670F622BAA526C00C7C32E /* Case6View.swift */; };
+		70670F652BAA52FA00C7C32E /* Case6Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70670F642BAA52FA00C7C32E /* Case6Button.swift */; };
+		70685A422980E1FD00E614AE /* Case2Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70685A412980E1FD00E614AE /* Case2Button.swift */; };
+		70685A442980E32A00E614AE /* Case3Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70685A432980E32A00E614AE /* Case3Button.swift */; };
+		70685A462980E46E00E614AE /* Case4Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70685A452980E46E00E614AE /* Case4Button.swift */; };
+		706A00862712A6BC00563D54 /* WChair_SelectorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A00852712A6BC00563D54 /* WChair_SelectorApp.swift */; };
+		706A00882712A6BC00563D54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A00872712A6BC00563D54 /* ContentView.swift */; };
+		706A008A2712A6BD00563D54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 706A00892712A6BD00563D54 /* Assets.xcassets */; };
+		706A008D2712A6BD00563D54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 706A008C2712A6BD00563D54 /* Preview Assets.xcassets */; };
+		706A00962712A8D500563D54 /* DataSideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A00942712A8D500563D54 /* DataSideMenu.swift */; };
+		706A00972712A8D500563D54 /* StudyCasesArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A00952712A8D500563D54 /* StudyCasesArray.swift */; };
+		706A009D2712A96E00563D54 /* WheelchairDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A00992712A96D00563D54 /* WheelchairDetailView.swift */; };
+		706A009E2712A96E00563D54 /* WheelchairHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A009A2712A96D00563D54 /* WheelchairHeaderView.swift */; };
+		706A00A32712A99D00563D54 /* WheelchairModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A00A22712A99D00563D54 /* WheelchairModel.swift */; };
+		706A00A62712A9B700563D54 /* WheelchairData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A00A52712A9B700563D54 /* WheelchairData.swift */; };
+		706A00DA2712AB3900563D54 /* EnterClientData1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A00D52712AB3800563D54 /* EnterClientData1.swift */; };
+		706A00DD2712AB3900563D54 /* EnterClientData2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A00D82712AB3900563D54 /* EnterClientData2.swift */; };
+		706A00DE2712AB3900563D54 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A00D92712AB3900563D54 /* HomeView.swift */; };
+		706A00E92712AB7100563D54 /* Case1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A00E02712AB7000563D54 /* Case1View.swift */; };
+		706A00EA2712AB7100563D54 /* Case2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A00E12712AB7000563D54 /* Case2View.swift */; };
+		706A00EB2712AB7100563D54 /* SolutionToCaseThreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A00E22712AB7100563D54 /* SolutionToCaseThreeView.swift */; };
+		706A00EC2712AB7100563D54 /* SolutionToCaseTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A00E32712AB7100563D54 /* SolutionToCaseTwoView.swift */; };
+		706A00ED2712AB7100563D54 /* Case4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A00E42712AB7100563D54 /* Case4View.swift */; };
+		706A00EF2712AB7100563D54 /* Case3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A00E62712AB7100563D54 /* Case3View.swift */; };
+		706A00F02712AB7100563D54 /* SolutionToCaseOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A00E72712AB7100563D54 /* SolutionToCaseOneView.swift */; };
+		706A00F12712AB7100563D54 /* SolutionToCaseFourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A00E82712AB7100563D54 /* SolutionToCaseFourView.swift */; };
+		706A00F52712ABA200563D54 /* StudyQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A00F32712ABA200563D54 /* StudyQuiz.swift */; };
+		706A00F62712ABA200563D54 /* QuizAnswer1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A00F42712ABA200563D54 /* QuizAnswer1View.swift */; };
+		7080B0C62980923C00EC0E59 /* Case1Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7080B0C52980923C00EC0E59 /* Case1Button.swift */; };
+		7080B0C9298096A300EC0E59 /* CustomModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7080B0C8298096A300EC0E59 /* CustomModifier.swift */; };
+		70830C3B278647DC002F1B78 /* TerminologyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70830C3A278647DC002F1B78 /* TerminologyModel.swift */; };
+		70830C3E27864AA1002F1B78 /* TerminologyRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70830C3D27864AA1002F1B78 /* TerminologyRowView.swift */; };
+		70830C4027864AC9002F1B78 /* TerminoloyDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70830C3F27864AC9002F1B78 /* TerminoloyDetailView.swift */; };
+		70830C4227864B00002F1B78 /* TerminologyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70830C4127864B00002F1B78 /* TerminologyView.swift */; };
+		70830C4427864B3F002F1B78 /* TerminologyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70830C4327864B3F002F1B78 /* TerminologyData.swift */; };
+		7083EA70281D8F48006DF9C5 /* CaseStadyHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7083EA6F281D8F48006DF9C5 /* CaseStadyHomeView.swift */; };
+		70ADF496299AB02900C4A1BE /* CatalogMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ADF495299AB02900C4A1BE /* CatalogMainView.swift */; };
+		70ADF498299AB0DE00C4A1BE /* WheelchairStdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ADF497299AB0DE00C4A1BE /* WheelchairStdView.swift */; };
+		70ADF49B299AB28200C4A1BE /* InfoDirec1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ADF49A299AB28200C4A1BE /* InfoDirec1.swift */; };
+		70ADF49D299AB29500C4A1BE /* InfoDirec2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ADF49C299AB29500C4A1BE /* InfoDirec2.swift */; };
+		70ADF49F299AB2A600C4A1BE /* InfoDirec3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ADF49E299AB2A600C4A1BE /* InfoDirec3.swift */; };
+		70BA598A2A06CB3400017BE5 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BA59892A06CB3400017BE5 /* MotionAnimationView.swift */; };
+		70CD574827AD8978008C1F10 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CD574727AD8978008C1F10 /* HomeModel.swift */; };
+		70CD574A27AD8A16008C1F10 /* HomeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CD574927AD8A16008C1F10 /* HomeData.swift */; };
+		70CD574C27ADA8DE008C1F10 /* HomeCardiew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CD574B27ADA8DE008C1F10 /* HomeCardiew.swift */; };
+		70E178B52A0DDBAC0000331B /* FactsViewOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E178B42A0DDBAC0000331B /* FactsViewOne.swift */; };
+		70EFE5372B9B778300BB2524 /* ModelPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EFE5362B9B778300BB2524 /* ModelPrice.swift */; };
+		70EFE5392B9B78BE00BB2524 /* ModelPriceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EFE5382B9B78BE00BB2524 /* ModelPriceData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		700F7D0E29A2B5A900DF1A23 /* DeveloperInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperInfoView.swift; sourceTree = "<group>"; };
+		700F7D1029A2B60000DF1A23 /* Developer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Developer.swift; sourceTree = "<group>"; };
+		701D5A3E29BFB00100688C4D /* WheelchairCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelchairCard.swift; sourceTree = "<group>"; };
+		703AED82299AC5A200D16EB3 /* WheelchairHtrView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelchairHtrView.swift; sourceTree = "<group>"; };
+		703AED84299AC5C800D16EB3 /* WheelchairTisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelchairTisView.swift; sourceTree = "<group>"; };
+		703AED86299AC60200D16EB3 /* WheelchairBrodaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelchairBrodaView.swift; sourceTree = "<group>"; };
+		703AED88299AC61D00D16EB3 /* WheelchairPwcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelchairPwcView.swift; sourceTree = "<group>"; };
+		703AED8A299AC66000D16EB3 /* WheelchairSeatingMattersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelchairSeatingMattersView.swift; sourceTree = "<group>"; };
+		7040575E29A15DC000417A7E /* HomeWelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWelcomeScreen.swift; sourceTree = "<group>"; };
+		7041015C27869A3000014E55 /* TerminologyHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminologyHeaderView.swift; sourceTree = "<group>"; };
+		704CF94D2B8BC6FE0018079B /* HomeViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewScreen.swift; sourceTree = "<group>"; };
+		704CF94F2B8BC76C0018079B /* ScreenSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSettings.swift; sourceTree = "<group>"; };
+		7057A8A82A0D613900430C96 /* FactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsView.swift; sourceTree = "<group>"; };
+		705EB65F29B7B38900BFAE92 /* StudyQuizButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyQuizButton.swift; sourceTree = "<group>"; };
+		705ED5F32B9AC6EC00280A1E /* ModelWheelchairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelWheelchairs.swift; sourceTree = "<group>"; };
+		706068D628AD865A00377026 /* CustomViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewModifiers.swift; sourceTree = "<group>"; };
+		70670F5A2BAA505700C7C32E /* SolutionToCaseFiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionToCaseFiveView.swift; sourceTree = "<group>"; };
+		70670F5C2BAA508700C7C32E /* SolutionToCaseSixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionToCaseSixView.swift; sourceTree = "<group>"; };
+		70670F5E2BAA51BD00C7C32E /* Case5Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case5Button.swift; sourceTree = "<group>"; };
+		70670F602BAA521C00C7C32E /* Case5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case5View.swift; sourceTree = "<group>"; };
+		70670F622BAA526C00C7C32E /* Case6View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case6View.swift; sourceTree = "<group>"; };
+		70670F642BAA52FA00C7C32E /* Case6Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case6Button.swift; sourceTree = "<group>"; };
+		70685A412980E1FD00E614AE /* Case2Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case2Button.swift; sourceTree = "<group>"; };
+		70685A432980E32A00E614AE /* Case3Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case3Button.swift; sourceTree = "<group>"; };
+		70685A452980E46E00E614AE /* Case4Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case4Button.swift; sourceTree = "<group>"; };
+		706A00822712A6BC00563D54 /* WChair Selector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WChair Selector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		706A00852712A6BC00563D54 /* WChair_SelectorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WChair_SelectorApp.swift; sourceTree = "<group>"; };
+		706A00872712A6BC00563D54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		706A00892712A6BD00563D54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		706A008C2712A6BD00563D54 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		706A00942712A8D500563D54 /* DataSideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSideMenu.swift; sourceTree = "<group>"; };
+		706A00952712A8D500563D54 /* StudyCasesArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudyCasesArray.swift; sourceTree = "<group>"; };
+		706A00992712A96D00563D54 /* WheelchairDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WheelchairDetailView.swift; sourceTree = "<group>"; };
+		706A009A2712A96D00563D54 /* WheelchairHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WheelchairHeaderView.swift; sourceTree = "<group>"; };
+		706A00A22712A99D00563D54 /* WheelchairModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WheelchairModel.swift; sourceTree = "<group>"; };
+		706A00A52712A9B700563D54 /* WheelchairData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WheelchairData.swift; sourceTree = "<group>"; };
+		706A00D52712AB3800563D54 /* EnterClientData1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterClientData1.swift; sourceTree = "<group>"; };
+		706A00D82712AB3900563D54 /* EnterClientData2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterClientData2.swift; sourceTree = "<group>"; };
+		706A00D92712AB3900563D54 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		706A00E02712AB7000563D54 /* Case1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Case1View.swift; sourceTree = "<group>"; };
+		706A00E12712AB7000563D54 /* Case2View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Case2View.swift; sourceTree = "<group>"; };
+		706A00E22712AB7100563D54 /* SolutionToCaseThreeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolutionToCaseThreeView.swift; sourceTree = "<group>"; };
+		706A00E32712AB7100563D54 /* SolutionToCaseTwoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolutionToCaseTwoView.swift; sourceTree = "<group>"; };
+		706A00E42712AB7100563D54 /* Case4View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Case4View.swift; sourceTree = "<group>"; };
+		706A00E62712AB7100563D54 /* Case3View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Case3View.swift; sourceTree = "<group>"; };
+		706A00E72712AB7100563D54 /* SolutionToCaseOneView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolutionToCaseOneView.swift; sourceTree = "<group>"; };
+		706A00E82712AB7100563D54 /* SolutionToCaseFourView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolutionToCaseFourView.swift; sourceTree = "<group>"; };
+		706A00F32712ABA200563D54 /* StudyQuiz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudyQuiz.swift; sourceTree = "<group>"; };
+		706A00F42712ABA200563D54 /* QuizAnswer1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizAnswer1View.swift; sourceTree = "<group>"; };
+		7080B0C52980923C00EC0E59 /* Case1Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case1Button.swift; sourceTree = "<group>"; };
+		7080B0C8298096A300EC0E59 /* CustomModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifier.swift; sourceTree = "<group>"; };
+		70830C3A278647DC002F1B78 /* TerminologyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminologyModel.swift; sourceTree = "<group>"; };
+		70830C3D27864AA1002F1B78 /* TerminologyRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminologyRowView.swift; sourceTree = "<group>"; };
+		70830C3F27864AC9002F1B78 /* TerminoloyDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminoloyDetailView.swift; sourceTree = "<group>"; };
+		70830C4127864B00002F1B78 /* TerminologyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminologyView.swift; sourceTree = "<group>"; };
+		70830C4327864B3F002F1B78 /* TerminologyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminologyData.swift; sourceTree = "<group>"; };
+		7083EA6F281D8F48006DF9C5 /* CaseStadyHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseStadyHomeView.swift; sourceTree = "<group>"; };
+		70ADF495299AB02900C4A1BE /* CatalogMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogMainView.swift; sourceTree = "<group>"; };
+		70ADF497299AB0DE00C4A1BE /* WheelchairStdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelchairStdView.swift; sourceTree = "<group>"; };
+		70ADF49A299AB28200C4A1BE /* InfoDirec1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDirec1.swift; sourceTree = "<group>"; };
+		70ADF49C299AB29500C4A1BE /* InfoDirec2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDirec2.swift; sourceTree = "<group>"; };
+		70ADF49E299AB2A600C4A1BE /* InfoDirec3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDirec3.swift; sourceTree = "<group>"; };
+		70BA59892A06CB3400017BE5 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
+		70CD574727AD8978008C1F10 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		70CD574927AD8A16008C1F10 /* HomeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeData.swift; sourceTree = "<group>"; };
+		70CD574B27ADA8DE008C1F10 /* HomeCardiew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCardiew.swift; sourceTree = "<group>"; };
+		70E178B42A0DDBAC0000331B /* FactsViewOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsViewOne.swift; sourceTree = "<group>"; };
+		70EFE5362B9B778300BB2524 /* ModelPrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelPrice.swift; sourceTree = "<group>"; };
+		70EFE5382B9B78BE00BB2524 /* ModelPriceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelPriceData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		706A007F2712A6BC00563D54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		701D5A3D29BFAFE100688C4D /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				701D5A3E29BFB00100688C4D /* WheelchairCard.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		705ED5F22B9AC6C000280A1E /* WCModels */ = {
+			isa = PBXGroup;
+			children = (
+				705ED5F32B9AC6EC00280A1E /* ModelWheelchairs.swift */,
+			);
+			path = WCModels;
+			sourceTree = "<group>";
+		};
+		706068D528AD863F00377026 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				706068D628AD865A00377026 /* CustomViewModifiers.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		706A00792712A6BC00563D54 = {
+			isa = PBXGroup;
+			children = (
+				706A00A72712A9C300563D54 /* Seating */,
+				706A00842712A6BC00563D54 /* WChair Selector */,
+				706A00832712A6BC00563D54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		706A00832712A6BC00563D54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				706A00822712A6BC00563D54 /* WChair Selector.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		706A00842712A6BC00563D54 /* WChair Selector */ = {
+			isa = PBXGroup;
+			children = (
+				706A00D22712AB1200563D54 /* AppViews */,
+				706A00982712A8EB00563D54 /* WheelchairViews */,
+				706A00DF2712AB4D00563D54 /* Study Cases */,
+				706A00F22712AB8000563D54 /* Study Quiz */,
+				70830C3C278649FC002F1B78 /* TerminologyViews */,
+				706A00892712A6BD00563D54 /* Assets.xcassets */,
+				706A008B2712A6BD00563D54 /* Preview Content */,
+			);
+			path = "WChair Selector";
+			sourceTree = "<group>";
+		};
+		706A008B2712A6BD00563D54 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				706A008C2712A6BD00563D54 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		706A00932712A8AA00563D54 /* Arrays */ = {
+			isa = PBXGroup;
+			children = (
+				706A00942712A8D500563D54 /* DataSideMenu.swift */,
+				706A00952712A8D500563D54 /* StudyCasesArray.swift */,
+			);
+			path = Arrays;
+			sourceTree = "<group>";
+		};
+		706A00982712A8EB00563D54 /* WheelchairViews */ = {
+			isa = PBXGroup;
+			children = (
+				706A009A2712A96D00563D54 /* WheelchairHeaderView.swift */,
+				706A00992712A96D00563D54 /* WheelchairDetailView.swift */,
+				70ADF494299AAFE100C4A1BE /* OnboardingCatalog */,
+				70BA59892A06CB3400017BE5 /* MotionAnimationView.swift */,
+			);
+			path = WheelchairViews;
+			sourceTree = "<group>";
+		};
+		706A00A12712A97700563D54 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				706A00A22712A99D00563D54 /* WheelchairModel.swift */,
+				70830C3A278647DC002F1B78 /* TerminologyModel.swift */,
+				70CD574727AD8978008C1F10 /* HomeModel.swift */,
+				700F7D1029A2B60000DF1A23 /* Developer.swift */,
+				70EFE5362B9B778300BB2524 /* ModelPrice.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		706A00A42712A9A400563D54 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				706A00A52712A9B700563D54 /* WheelchairData.swift */,
+				70830C4327864B3F002F1B78 /* TerminologyData.swift */,
+				70CD574927AD8A16008C1F10 /* HomeData.swift */,
+				70EFE5382B9B78BE00BB2524 /* ModelPriceData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		706A00A72712A9C300563D54 /* Seating */ = {
+			isa = PBXGroup;
+			children = (
+				705ED5F22B9AC6C000280A1E /* WCModels */,
+				701D5A3D29BFAFE100688C4D /* Cards */,
+				706068D528AD863F00377026 /* Extensions */,
+				706A00A42712A9A400563D54 /* Data */,
+				706A00A12712A97700563D54 /* Model */,
+				706A00932712A8AA00563D54 /* Arrays */,
+			);
+			path = Seating;
+			sourceTree = "<group>";
+		};
+		706A00D22712AB1200563D54 /* AppViews */ = {
+			isa = PBXGroup;
+			children = (
+				70830C4127864B00002F1B78 /* TerminologyView.swift */,
+				706A00852712A6BC00563D54 /* WChair_SelectorApp.swift */,
+				706A00872712A6BC00563D54 /* ContentView.swift */,
+				706A00D92712AB3900563D54 /* HomeView.swift */,
+				706A00D52712AB3800563D54 /* EnterClientData1.swift */,
+				706A00D82712AB3900563D54 /* EnterClientData2.swift */,
+				70CD574B27ADA8DE008C1F10 /* HomeCardiew.swift */,
+				7040575E29A15DC000417A7E /* HomeWelcomeScreen.swift */,
+				700F7D0E29A2B5A900DF1A23 /* DeveloperInfoView.swift */,
+				7057A8A82A0D613900430C96 /* FactsView.swift */,
+				70E178B42A0DDBAC0000331B /* FactsViewOne.swift */,
+				704CF94D2B8BC6FE0018079B /* HomeViewScreen.swift */,
+				704CF94F2B8BC76C0018079B /* ScreenSettings.swift */,
+			);
+			path = AppViews;
+			sourceTree = "<group>";
+		};
+		706A00DF2712AB4D00563D54 /* Study Cases */ = {
+			isa = PBXGroup;
+			children = (
+				7080B0C72980967400EC0E59 /* Extensions for CaseButtons */,
+				7080B0C42980915C00EC0E59 /* StudyCaseButtonViews */,
+				706A00E02712AB7000563D54 /* Case1View.swift */,
+				706A00E12712AB7000563D54 /* Case2View.swift */,
+				706A00E62712AB7100563D54 /* Case3View.swift */,
+				706A00E42712AB7100563D54 /* Case4View.swift */,
+				70670F602BAA521C00C7C32E /* Case5View.swift */,
+				70670F622BAA526C00C7C32E /* Case6View.swift */,
+				706A00E72712AB7100563D54 /* SolutionToCaseOneView.swift */,
+				706A00E32712AB7100563D54 /* SolutionToCaseTwoView.swift */,
+				706A00E22712AB7100563D54 /* SolutionToCaseThreeView.swift */,
+				706A00E82712AB7100563D54 /* SolutionToCaseFourView.swift */,
+				70670F5A2BAA505700C7C32E /* SolutionToCaseFiveView.swift */,
+				70670F5C2BAA508700C7C32E /* SolutionToCaseSixView.swift */,
+				7083EA6F281D8F48006DF9C5 /* CaseStadyHomeView.swift */,
+			);
+			path = "Study Cases";
+			sourceTree = "<group>";
+		};
+		706A00F22712AB8000563D54 /* Study Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				706A00F32712ABA200563D54 /* StudyQuiz.swift */,
+				706A00F42712ABA200563D54 /* QuizAnswer1View.swift */,
+				705EB65F29B7B38900BFAE92 /* StudyQuizButton.swift */,
+			);
+			path = "Study Quiz";
+			sourceTree = "<group>";
+		};
+		7080B0C42980915C00EC0E59 /* StudyCaseButtonViews */ = {
+			isa = PBXGroup;
+			children = (
+				7080B0C52980923C00EC0E59 /* Case1Button.swift */,
+				70685A412980E1FD00E614AE /* Case2Button.swift */,
+				70685A432980E32A00E614AE /* Case3Button.swift */,
+				70685A452980E46E00E614AE /* Case4Button.swift */,
+				70670F5E2BAA51BD00C7C32E /* Case5Button.swift */,
+				70670F642BAA52FA00C7C32E /* Case6Button.swift */,
+			);
+			path = StudyCaseButtonViews;
+			sourceTree = "<group>";
+		};
+		7080B0C72980967400EC0E59 /* Extensions for CaseButtons */ = {
+			isa = PBXGroup;
+			children = (
+				7080B0C8298096A300EC0E59 /* CustomModifier.swift */,
+			);
+			path = "Extensions for CaseButtons";
+			sourceTree = "<group>";
+		};
+		70830C3C278649FC002F1B78 /* TerminologyViews */ = {
+			isa = PBXGroup;
+			children = (
+				70830C3D27864AA1002F1B78 /* TerminologyRowView.swift */,
+				70830C3F27864AC9002F1B78 /* TerminoloyDetailView.swift */,
+				7041015C27869A3000014E55 /* TerminologyHeaderView.swift */,
+			);
+			path = TerminologyViews;
+			sourceTree = "<group>";
+		};
+		70ADF494299AAFE100C4A1BE /* OnboardingCatalog */ = {
+			isa = PBXGroup;
+			children = (
+				70ADF497299AB0DE00C4A1BE /* WheelchairStdView.swift */,
+				703AED82299AC5A200D16EB3 /* WheelchairHtrView.swift */,
+				703AED84299AC5C800D16EB3 /* WheelchairTisView.swift */,
+				703AED86299AC60200D16EB3 /* WheelchairBrodaView.swift */,
+				703AED88299AC61D00D16EB3 /* WheelchairPwcView.swift */,
+				703AED8A299AC66000D16EB3 /* WheelchairSeatingMattersView.swift */,
+				70ADF495299AB02900C4A1BE /* CatalogMainView.swift */,
+				70ADF499299AB24D00C4A1BE /* ScrollViews */,
+			);
+			path = OnboardingCatalog;
+			sourceTree = "<group>";
+		};
+		70ADF499299AB24D00C4A1BE /* ScrollViews */ = {
+			isa = PBXGroup;
+			children = (
+				70ADF49A299AB28200C4A1BE /* InfoDirec1.swift */,
+				70ADF49C299AB29500C4A1BE /* InfoDirec2.swift */,
+				70ADF49E299AB2A600C4A1BE /* InfoDirec3.swift */,
+			);
+			path = ScrollViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		706A00812712A6BC00563D54 /* WChair Selector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 706A00902712A6BD00563D54 /* Build configuration list for PBXNativeTarget "WChair Selector" */;
+			buildPhases = (
+				706A007E2712A6BC00563D54 /* Sources */,
+				706A007F2712A6BC00563D54 /* Frameworks */,
+				706A00802712A6BC00563D54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WChair Selector";
+			productName = "Seating App";
+			productReference = 706A00822712A6BC00563D54 /* WChair Selector.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		706A007A2712A6BC00563D54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					706A00812712A6BC00563D54 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 706A007D2712A6BC00563D54 /* Build configuration list for PBXProject "WChair Selector" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 706A00792712A6BC00563D54;
+			productRefGroup = 706A00832712A6BC00563D54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				706A00812712A6BC00563D54 /* WChair Selector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		706A00802712A6BC00563D54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				706A008D2712A6BD00563D54 /* Preview Assets.xcassets in Resources */,
+				706A008A2712A6BD00563D54 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		706A007E2712A6BC00563D54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70830C4227864B00002F1B78 /* TerminologyView.swift in Sources */,
+				701D5A3F29BFB00100688C4D /* WheelchairCard.swift in Sources */,
+				706A00882712A6BC00563D54 /* ContentView.swift in Sources */,
+				705ED5F42B9AC6EC00280A1E /* ModelWheelchairs.swift in Sources */,
+				70CD574C27ADA8DE008C1F10 /* HomeCardiew.swift in Sources */,
+				7057A8A92A0D613900430C96 /* FactsView.swift in Sources */,
+				70830C3E27864AA1002F1B78 /* TerminologyRowView.swift in Sources */,
+				703AED83299AC5A200D16EB3 /* WheelchairHtrView.swift in Sources */,
+				70670F632BAA526C00C7C32E /* Case6View.swift in Sources */,
+				706068D728AD865A00377026 /* CustomViewModifiers.swift in Sources */,
+				706A00F52712ABA200563D54 /* StudyQuiz.swift in Sources */,
+				70670F5B2BAA505700C7C32E /* SolutionToCaseFiveView.swift in Sources */,
+				7040575F29A15DC000417A7E /* HomeWelcomeScreen.swift in Sources */,
+				703AED89299AC61D00D16EB3 /* WheelchairPwcView.swift in Sources */,
+				704CF94E2B8BC6FE0018079B /* HomeViewScreen.swift in Sources */,
+				70CD574827AD8978008C1F10 /* HomeModel.swift in Sources */,
+				70670F652BAA52FA00C7C32E /* Case6Button.swift in Sources */,
+				704CF9502B8BC76C0018079B /* ScreenSettings.swift in Sources */,
+				705EB66029B7B38900BFAE92 /* StudyQuizButton.swift in Sources */,
+				703AED87299AC60200D16EB3 /* WheelchairBrodaView.swift in Sources */,
+				70685A442980E32A00E614AE /* Case3Button.swift in Sources */,
+				706A00962712A8D500563D54 /* DataSideMenu.swift in Sources */,
+				70ADF49F299AB2A600C4A1BE /* InfoDirec3.swift in Sources */,
+				70685A462980E46E00E614AE /* Case4Button.swift in Sources */,
+				703AED8B299AC66000D16EB3 /* WheelchairSeatingMattersView.swift in Sources */,
+				7083EA70281D8F48006DF9C5 /* CaseStadyHomeView.swift in Sources */,
+				706A009D2712A96E00563D54 /* WheelchairDetailView.swift in Sources */,
+				70670F5F2BAA51BD00C7C32E /* Case5Button.swift in Sources */,
+				700F7D0F29A2B5A900DF1A23 /* DeveloperInfoView.swift in Sources */,
+				70685A422980E1FD00E614AE /* Case2Button.swift in Sources */,
+				70BA598A2A06CB3400017BE5 /* MotionAnimationView.swift in Sources */,
+				706A00EF2712AB7100563D54 /* Case3View.swift in Sources */,
+				706A00EA2712AB7100563D54 /* Case2View.swift in Sources */,
+				70EFE5392B9B78BE00BB2524 /* ModelPriceData.swift in Sources */,
+				70830C3B278647DC002F1B78 /* TerminologyModel.swift in Sources */,
+				706A00F12712AB7100563D54 /* SolutionToCaseFourView.swift in Sources */,
+				706A00A32712A99D00563D54 /* WheelchairModel.swift in Sources */,
+				706A00DD2712AB3900563D54 /* EnterClientData2.swift in Sources */,
+				70ADF498299AB0DE00C4A1BE /* WheelchairStdView.swift in Sources */,
+				706A00F62712ABA200563D54 /* QuizAnswer1View.swift in Sources */,
+				706A00862712A6BC00563D54 /* WChair_SelectorApp.swift in Sources */,
+				706A00972712A8D500563D54 /* StudyCasesArray.swift in Sources */,
+				70830C4427864B3F002F1B78 /* TerminologyData.swift in Sources */,
+				7041015D27869A3000014E55 /* TerminologyHeaderView.swift in Sources */,
+				70670F5D2BAA508700C7C32E /* SolutionToCaseSixView.swift in Sources */,
+				70ADF49B299AB28200C4A1BE /* InfoDirec1.swift in Sources */,
+				706A00DA2712AB3900563D54 /* EnterClientData1.swift in Sources */,
+				706A00E92712AB7100563D54 /* Case1View.swift in Sources */,
+				7080B0C9298096A300EC0E59 /* CustomModifier.swift in Sources */,
+				70ADF496299AB02900C4A1BE /* CatalogMainView.swift in Sources */,
+				70E178B52A0DDBAC0000331B /* FactsViewOne.swift in Sources */,
+				706A00DE2712AB3900563D54 /* HomeView.swift in Sources */,
+				706A009E2712A96E00563D54 /* WheelchairHeaderView.swift in Sources */,
+				706A00A62712A9B700563D54 /* WheelchairData.swift in Sources */,
+				70830C4027864AC9002F1B78 /* TerminoloyDetailView.swift in Sources */,
+				70ADF49D299AB29500C4A1BE /* InfoDirec2.swift in Sources */,
+				70670F612BAA521C00C7C32E /* Case5View.swift in Sources */,
+				706A00EB2712AB7100563D54 /* SolutionToCaseThreeView.swift in Sources */,
+				706A00ED2712AB7100563D54 /* Case4View.swift in Sources */,
+				706A00EC2712AB7100563D54 /* SolutionToCaseTwoView.swift in Sources */,
+				70EFE5372B9B778300BB2524 /* ModelPrice.swift in Sources */,
+				700F7D1129A2B60000DF1A23 /* Developer.swift in Sources */,
+				706A00F02712AB7100563D54 /* SolutionToCaseOneView.swift in Sources */,
+				7080B0C62980923C00EC0E59 /* Case1Button.swift in Sources */,
+				703AED85299AC5C800D16EB3 /* WheelchairTisView.swift in Sources */,
+				70CD574A27AD8A16008C1F10 /* HomeData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		706A008E2712A6BD00563D54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		706A008F2712A6BD00563D54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		706A00912712A6BD00563D54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WChair Selector/Preview Content\"";
+				DEVELOPMENT_TEAM = F8LUJQQRDY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "WChair Selector";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jaime-Fagnilli.WChair-Selector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		706A00922712A6BD00563D54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WChair Selector/Preview Content\"";
+				DEVELOPMENT_TEAM = F8LUJQQRDY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "WChair Selector";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jaime-Fagnilli.WChair-Selector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		706A007D2712A6BC00563D54 /* Build configuration list for PBXProject "WChair Selector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				706A008E2712A6BD00563D54 /* Debug */,
+				706A008F2712A6BD00563D54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		706A00902712A6BD00563D54 /* Build configuration list for PBXNativeTarget "WChair Selector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				706A00912712A6BD00563D54 /* Debug */,
+				706A00922712A6BD00563D54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 706A007A2712A6BC00563D54 /* Project object */;
+}
