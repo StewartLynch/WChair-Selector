@@ -21,20 +21,20 @@ struct CaseStadyHomeView: View {
                         .font(.title3)
                         .foregroundColor(.accentColor)
                     
-                    HStack (spacing: -28){
+                    HStack (spacing: -10){
                         Case1Button()
                         
                         Case2Button()
                     }
                     
                     
-                    HStack(spacing: -28) {
+                    HStack(spacing: -10) {
                         Case3Button()
                         
                         Case4Button()
                     }
                     
-                    HStack(spacing: -28) {
+                    HStack(spacing: -10) {
                         Case5Button()
                         
                         Case6Button()

@@ -36,7 +36,7 @@ struct Case2Button: View {
                 .fontWeight(.bold)
                 .padding()
         }
-        .frame(width: 190, height:200)
+        .frame(width: 170, height:180)
         .background(
             Color.accentColor.cornerRadius(10).opacity(0.2)
                 .shadow(color: .black, radius: 03, x: 3, y: 5)

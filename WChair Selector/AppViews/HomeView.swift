@@ -76,7 +76,7 @@ struct HomeView: View {
                             .font(.system(size: 20))
                             .foregroundColor(Color.accentColor)
                         
-                        Text("For OT StudentsIn LTC")
+                        Text("For OT Students In LTC")
                         
                             .font(.caption)
                             .foregroundColor(Color.accentColor)
