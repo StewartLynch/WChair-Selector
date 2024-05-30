@@ -16,7 +16,7 @@ struct HomeCardiew: View {
     
     var body: some View {
         ZStack {
-            MotionAnimationView()
+//            MotionAnimationView()
             VStack (alignment: .center, spacing: 10){
                 
                 Image(home.image)
