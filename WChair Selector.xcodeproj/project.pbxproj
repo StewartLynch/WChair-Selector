@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		700F7D0F29A2B5A900DF1A23 /* DeveloperInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700F7D0E29A2B5A900DF1A23 /* DeveloperInfoView.swift */; };
+		700F7D0F29A2B5A900DF1A23 /* DeveloperInfoSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700F7D0E29A2B5A900DF1A23 /* DeveloperInfoSheetView.swift */; };
 		700F7D1129A2B60000DF1A23 /* Developer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700F7D1029A2B60000DF1A23 /* Developer.swift */; };
 		701D5A3F29BFB00100688C4D /* WheelchairCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701D5A3E29BFB00100688C4D /* WheelchairCard.swift */; };
 		703AED83299AC5A200D16EB3 /* WheelchairHtrView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703AED82299AC5A200D16EB3 /* WheelchairHtrView.swift */; };
@@ -15,14 +15,14 @@
 		703AED87299AC60200D16EB3 /* WheelchairBrodaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703AED86299AC60200D16EB3 /* WheelchairBrodaView.swift */; };
 		703AED89299AC61D00D16EB3 /* WheelchairPwcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703AED88299AC61D00D16EB3 /* WheelchairPwcView.swift */; };
 		703AED8B299AC66000D16EB3 /* WheelchairSeatingMattersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703AED8A299AC66000D16EB3 /* WheelchairSeatingMattersView.swift */; };
-		7040575F29A15DC000417A7E /* HomeWelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7040575E29A15DC000417A7E /* HomeWelcomeScreen.swift */; };
+		7040575F29A15DC000417A7E /* HomeWelcomeSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7040575E29A15DC000417A7E /* HomeWelcomeSheetView.swift */; };
 		7041015D27869A3000014E55 /* TerminologyHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7041015C27869A3000014E55 /* TerminologyHeaderView.swift */; };
-		704CF94E2B8BC6FE0018079B /* HomeViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704CF94D2B8BC6FE0018079B /* HomeViewScreen.swift */; };
-		704CF9502B8BC76C0018079B /* ScreenSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704CF94F2B8BC76C0018079B /* ScreenSettings.swift */; };
+		704CF94E2B8BC6FE0018079B /* HomeScreenTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704CF94D2B8BC6FE0018079B /* HomeScreenTabView.swift */; };
+		704CF9502B8BC76C0018079B /* ScreenSettingsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704CF94F2B8BC76C0018079B /* ScreenSettingsSheet.swift */; };
 		7057A8A92A0D613900430C96 /* FactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7057A8A82A0D613900430C96 /* FactsView.swift */; };
-		705EB66029B7B38900BFAE92 /* StudyQuizButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705EB65F29B7B38900BFAE92 /* StudyQuizButton.swift */; };
-		705ED5F42B9AC6EC00280A1E /* ModelWheelchairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705ED5F32B9AC6EC00280A1E /* ModelWheelchairs.swift */; };
-		706068D728AD865A00377026 /* CustomViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706068D628AD865A00377026 /* CustomViewModifiers.swift */; };
+		705EB66029B7B38900BFAE92 /* StudyQuizButtonSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705EB65F29B7B38900BFAE92 /* StudyQuizButtonSheet.swift */; };
+		705ED5F42B9AC6EC00280A1E /* ModelWheelchairsSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705ED5F32B9AC6EC00280A1E /* ModelWheelchairsSheetView.swift */; };
+		706068D728AD865A00377026 /* MacroStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706068D628AD865A00377026 /* MacroStyle.swift */; };
 		70670F5B2BAA505700C7C32E /* SolutionToCaseFiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70670F5A2BAA505700C7C32E /* SolutionToCaseFiveView.swift */; };
 		70670F5D2BAA508700C7C32E /* SolutionToCaseSixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70670F5C2BAA508700C7C32E /* SolutionToCaseSixView.swift */; };
 		70670F5F2BAA51BD00C7C32E /* Case5Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70670F5E2BAA51BD00C7C32E /* Case5Button.swift */; };
@@ -33,7 +33,7 @@
 		70685A442980E32A00E614AE /* Case3Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70685A432980E32A00E614AE /* Case3Button.swift */; };
 		70685A462980E46E00E614AE /* Case4Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70685A452980E46E00E614AE /* Case4Button.swift */; };
 		706A00862712A6BC00563D54 /* WChair_SelectorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A00852712A6BC00563D54 /* WChair_SelectorApp.swift */; };
-		706A00882712A6BC00563D54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A00872712A6BC00563D54 /* ContentView.swift */; };
+		706A00882712A6BC00563D54 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A00872712A6BC00563D54 /* HomeScreenView.swift */; };
 		706A008A2712A6BD00563D54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 706A00892712A6BD00563D54 /* Assets.xcassets */; };
 		706A008D2712A6BD00563D54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 706A008C2712A6BD00563D54 /* Preview Assets.xcassets */; };
 		706A00962712A8D500563D54 /* DataSideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A00942712A8D500563D54 /* DataSideMenu.swift */; };
@@ -42,8 +42,8 @@
 		706A009E2712A96E00563D54 /* WheelchairHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A009A2712A96D00563D54 /* WheelchairHeaderView.swift */; };
 		706A00A32712A99D00563D54 /* WheelchairModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A00A22712A99D00563D54 /* WheelchairModel.swift */; };
 		706A00A62712A9B700563D54 /* WheelchairData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A00A52712A9B700563D54 /* WheelchairData.swift */; };
-		706A00DA2712AB3900563D54 /* EnterClientData1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A00D52712AB3800563D54 /* EnterClientData1.swift */; };
-		706A00DD2712AB3900563D54 /* EnterClientData2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A00D82712AB3900563D54 /* EnterClientData2.swift */; };
+		706A00DA2712AB3900563D54 /* EnterClientData1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A00D52712AB3800563D54 /* EnterClientData1View.swift */; };
+		706A00DD2712AB3900563D54 /* EnterClientData2SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A00D82712AB3900563D54 /* EnterClientData2SheetView.swift */; };
 		706A00DE2712AB3900563D54 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A00D92712AB3900563D54 /* HomeView.swift */; };
 		706A00E92712AB7100563D54 /* Case1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A00E02712AB7000563D54 /* Case1View.swift */; };
 		706A00EA2712AB7100563D54 /* Case2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A00E12712AB7000563D54 /* Case2View.swift */; };
@@ -56,7 +56,7 @@
 		706A00F52712ABA200563D54 /* StudyQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A00F32712ABA200563D54 /* StudyQuiz.swift */; };
 		706A00F62712ABA200563D54 /* QuizAnswer1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A00F42712ABA200563D54 /* QuizAnswer1View.swift */; };
 		7080B0C62980923C00EC0E59 /* Case1Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7080B0C52980923C00EC0E59 /* Case1Button.swift */; };
-		7080B0C9298096A300EC0E59 /* CustomModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7080B0C8298096A300EC0E59 /* CustomModifier.swift */; };
+		7080B0C9298096A300EC0E59 /* HeaderStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7080B0C8298096A300EC0E59 /* HeaderStyle.swift */; };
 		70830C3B278647DC002F1B78 /* TerminologyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70830C3A278647DC002F1B78 /* TerminologyModel.swift */; };
 		70830C3E27864AA1002F1B78 /* TerminologyRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70830C3D27864AA1002F1B78 /* TerminologyRowView.swift */; };
 		70830C4027864AC9002F1B78 /* TerminoloyDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70830C3F27864AC9002F1B78 /* TerminoloyDetailView.swift */; };
@@ -72,13 +72,15 @@
 		70CD574827AD8978008C1F10 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CD574727AD8978008C1F10 /* HomeModel.swift */; };
 		70CD574A27AD8A16008C1F10 /* HomeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CD574927AD8A16008C1F10 /* HomeData.swift */; };
 		70CD574C27ADA8DE008C1F10 /* HomeCardiew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CD574B27ADA8DE008C1F10 /* HomeCardiew.swift */; };
-		70E178B52A0DDBAC0000331B /* FactsViewOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E178B42A0DDBAC0000331B /* FactsViewOne.swift */; };
+		70E178B52A0DDBAC0000331B /* FactsViewOneSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E178B42A0DDBAC0000331B /* FactsViewOneSheetView.swift */; };
 		70EFE5372B9B778300BB2524 /* ModelPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EFE5362B9B778300BB2524 /* ModelPrice.swift */; };
 		70EFE5392B9B78BE00BB2524 /* ModelPriceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EFE5382B9B78BE00BB2524 /* ModelPriceData.swift */; };
+		BBDD1A9A2C0D1C46009638EB /* EnterDataProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDD1A992C0D1C46009638EB /* EnterDataProfile.swift */; };
+		BBDD1ABE2C0D2BC2009638EB /* ModelWheelchairsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDD1ABD2C0D2BC2009638EB /* ModelWheelchairsDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		700F7D0E29A2B5A900DF1A23 /* DeveloperInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperInfoView.swift; sourceTree = "<group>"; };
+		700F7D0E29A2B5A900DF1A23 /* DeveloperInfoSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperInfoSheetView.swift; sourceTree = "<group>"; };
 		700F7D1029A2B60000DF1A23 /* Developer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Developer.swift; sourceTree = "<group>"; };
 		701D5A3E29BFB00100688C4D /* WheelchairCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelchairCard.swift; sourceTree = "<group>"; };
 		703AED82299AC5A200D16EB3 /* WheelchairHtrView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelchairHtrView.swift; sourceTree = "<group>"; };
@@ -86,14 +88,14 @@
 		703AED86299AC60200D16EB3 /* WheelchairBrodaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelchairBrodaView.swift; sourceTree = "<group>"; };
 		703AED88299AC61D00D16EB3 /* WheelchairPwcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelchairPwcView.swift; sourceTree = "<group>"; };
 		703AED8A299AC66000D16EB3 /* WheelchairSeatingMattersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelchairSeatingMattersView.swift; sourceTree = "<group>"; };
-		7040575E29A15DC000417A7E /* HomeWelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWelcomeScreen.swift; sourceTree = "<group>"; };
+		7040575E29A15DC000417A7E /* HomeWelcomeSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWelcomeSheetView.swift; sourceTree = "<group>"; };
 		7041015C27869A3000014E55 /* TerminologyHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminologyHeaderView.swift; sourceTree = "<group>"; };
-		704CF94D2B8BC6FE0018079B /* HomeViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewScreen.swift; sourceTree = "<group>"; };
-		704CF94F2B8BC76C0018079B /* ScreenSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSettings.swift; sourceTree = "<group>"; };
+		704CF94D2B8BC6FE0018079B /* HomeScreenTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenTabView.swift; sourceTree = "<group>"; };
+		704CF94F2B8BC76C0018079B /* ScreenSettingsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSettingsSheet.swift; sourceTree = "<group>"; };
 		7057A8A82A0D613900430C96 /* FactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsView.swift; sourceTree = "<group>"; };
-		705EB65F29B7B38900BFAE92 /* StudyQuizButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyQuizButton.swift; sourceTree = "<group>"; };
-		705ED5F32B9AC6EC00280A1E /* ModelWheelchairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelWheelchairs.swift; sourceTree = "<group>"; };
-		706068D628AD865A00377026 /* CustomViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewModifiers.swift; sourceTree = "<group>"; };
+		705EB65F29B7B38900BFAE92 /* StudyQuizButtonSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyQuizButtonSheet.swift; sourceTree = "<group>"; };
+		705ED5F32B9AC6EC00280A1E /* ModelWheelchairsSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelWheelchairsSheetView.swift; sourceTree = "<group>"; };
+		706068D628AD865A00377026 /* MacroStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacroStyle.swift; sourceTree = "<group>"; };
 		70670F5A2BAA505700C7C32E /* SolutionToCaseFiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionToCaseFiveView.swift; sourceTree = "<group>"; };
 		70670F5C2BAA508700C7C32E /* SolutionToCaseSixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionToCaseSixView.swift; sourceTree = "<group>"; };
 		70670F5E2BAA51BD00C7C32E /* Case5Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case5Button.swift; sourceTree = "<group>"; };
@@ -105,7 +107,7 @@
 		70685A452980E46E00E614AE /* Case4Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case4Button.swift; sourceTree = "<group>"; };
 		706A00822712A6BC00563D54 /* WChair Selector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WChair Selector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		706A00852712A6BC00563D54 /* WChair_SelectorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WChair_SelectorApp.swift; sourceTree = "<group>"; };
-		706A00872712A6BC00563D54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		706A00872712A6BC00563D54 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
 		706A00892712A6BD00563D54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		706A008C2712A6BD00563D54 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		706A00942712A8D500563D54 /* DataSideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSideMenu.swift; sourceTree = "<group>"; };
@@ -114,8 +116,8 @@
 		706A009A2712A96D00563D54 /* WheelchairHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WheelchairHeaderView.swift; sourceTree = "<group>"; };
 		706A00A22712A99D00563D54 /* WheelchairModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WheelchairModel.swift; sourceTree = "<group>"; };
 		706A00A52712A9B700563D54 /* WheelchairData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WheelchairData.swift; sourceTree = "<group>"; };
-		706A00D52712AB3800563D54 /* EnterClientData1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterClientData1.swift; sourceTree = "<group>"; };
-		706A00D82712AB3900563D54 /* EnterClientData2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterClientData2.swift; sourceTree = "<group>"; };
+		706A00D52712AB3800563D54 /* EnterClientData1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterClientData1View.swift; sourceTree = "<group>"; };
+		706A00D82712AB3900563D54 /* EnterClientData2SheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterClientData2SheetView.swift; sourceTree = "<group>"; };
 		706A00D92712AB3900563D54 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		706A00E02712AB7000563D54 /* Case1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Case1View.swift; sourceTree = "<group>"; };
 		706A00E12712AB7000563D54 /* Case2View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Case2View.swift; sourceTree = "<group>"; };
@@ -128,7 +130,7 @@
 		706A00F32712ABA200563D54 /* StudyQuiz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudyQuiz.swift; sourceTree = "<group>"; };
 		706A00F42712ABA200563D54 /* QuizAnswer1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizAnswer1View.swift; sourceTree = "<group>"; };
 		7080B0C52980923C00EC0E59 /* Case1Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case1Button.swift; sourceTree = "<group>"; };
-		7080B0C8298096A300EC0E59 /* CustomModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifier.swift; sourceTree = "<group>"; };
+		7080B0C8298096A300EC0E59 /* HeaderStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderStyle.swift; sourceTree = "<group>"; };
 		70830C3A278647DC002F1B78 /* TerminologyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminologyModel.swift; sourceTree = "<group>"; };
 		70830C3D27864AA1002F1B78 /* TerminologyRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminologyRowView.swift; sourceTree = "<group>"; };
 		70830C3F27864AC9002F1B78 /* TerminoloyDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminoloyDetailView.swift; sourceTree = "<group>"; };
@@ -144,9 +146,11 @@
 		70CD574727AD8978008C1F10 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
 		70CD574927AD8A16008C1F10 /* HomeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeData.swift; sourceTree = "<group>"; };
 		70CD574B27ADA8DE008C1F10 /* HomeCardiew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCardiew.swift; sourceTree = "<group>"; };
-		70E178B42A0DDBAC0000331B /* FactsViewOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsViewOne.swift; sourceTree = "<group>"; };
+		70E178B42A0DDBAC0000331B /* FactsViewOneSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsViewOneSheetView.swift; sourceTree = "<group>"; };
 		70EFE5362B9B778300BB2524 /* ModelPrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelPrice.swift; sourceTree = "<group>"; };
 		70EFE5382B9B78BE00BB2524 /* ModelPriceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelPriceData.swift; sourceTree = "<group>"; };
+		BBDD1A992C0D1C46009638EB /* EnterDataProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterDataProfile.swift; sourceTree = "<group>"; };
+		BBDD1ABD2C0D2BC2009638EB /* ModelWheelchairsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelWheelchairsDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,34 +164,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		701D5A3D29BFAFE100688C4D /* Cards */ = {
+		705ED5F22B9AC6C000280A1E /* ModelWheelcharSheet Views */ = {
 			isa = PBXGroup;
 			children = (
-				701D5A3E29BFB00100688C4D /* WheelchairCard.swift */,
+				705ED5F32B9AC6EC00280A1E /* ModelWheelchairsSheetView.swift */,
+				BBDD1ABD2C0D2BC2009638EB /* ModelWheelchairsDetailView.swift */,
 			);
-			path = Cards;
+			path = "ModelWheelcharSheet Views";
 			sourceTree = "<group>";
 		};
-		705ED5F22B9AC6C000280A1E /* WCModels */ = {
+		706068D528AD863F00377026 /* View Modifiers */ = {
 			isa = PBXGroup;
 			children = (
-				705ED5F32B9AC6EC00280A1E /* ModelWheelchairs.swift */,
+				7080B0C8298096A300EC0E59 /* HeaderStyle.swift */,
+				706068D628AD865A00377026 /* MacroStyle.swift */,
 			);
-			path = WCModels;
-			sourceTree = "<group>";
-		};
-		706068D528AD863F00377026 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				706068D628AD865A00377026 /* CustomViewModifiers.swift */,
-			);
-			path = Extensions;
+			path = "View Modifiers";
 			sourceTree = "<group>";
 		};
 		706A00792712A6BC00563D54 = {
 			isa = PBXGroup;
 			children = (
-				706A00A72712A9C300563D54 /* Seating */,
 				706A00842712A6BC00563D54 /* WChair Selector */,
 				706A00832712A6BC00563D54 /* Products */,
 			);
@@ -204,11 +201,12 @@
 		706A00842712A6BC00563D54 /* WChair Selector */ = {
 			isa = PBXGroup;
 			children = (
-				706A00D22712AB1200563D54 /* AppViews */,
-				706A00982712A8EB00563D54 /* WheelchairViews */,
-				706A00DF2712AB4D00563D54 /* Study Cases */,
-				706A00F22712AB8000563D54 /* Study Quiz */,
-				70830C3C278649FC002F1B78 /* TerminologyViews */,
+				706A00852712A6BC00563D54 /* WChair_SelectorApp.swift */,
+				706A00A12712A97700563D54 /* Models */,
+				706A00D22712AB1200563D54 /* Views */,
+				BBDD1A9B2C0D1C51009638EB /* ViewModel */,
+				706068D528AD863F00377026 /* View Modifiers */,
+				706A00A42712A9A400563D54 /* Sample Data */,
 				706A00892712A6BD00563D54 /* Assets.xcassets */,
 				706A008B2712A6BD00563D54 /* Preview Content */,
 			);
@@ -232,7 +230,7 @@
 			path = Arrays;
 			sourceTree = "<group>";
 		};
-		706A00982712A8EB00563D54 /* WheelchairViews */ = {
+		706A00982712A8EB00563D54 /* Wheelchair subviews */ = {
 			isa = PBXGroup;
 			children = (
 				706A009A2712A96D00563D54 /* WheelchairHeaderView.swift */,
@@ -240,10 +238,10 @@
 				70ADF494299AAFE100C4A1BE /* OnboardingCatalog */,
 				70BA59892A06CB3400017BE5 /* MotionAnimationView.swift */,
 			);
-			path = WheelchairViews;
+			path = "Wheelchair subviews";
 			sourceTree = "<group>";
 		};
-		706A00A12712A97700563D54 /* Model */ = {
+		706A00A12712A97700563D54 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				706A00A22712A99D00563D54 /* WheelchairModel.swift */,
@@ -252,81 +250,49 @@
 				700F7D1029A2B60000DF1A23 /* Developer.swift */,
 				70EFE5362B9B778300BB2524 /* ModelPrice.swift */,
 			);
-			path = Model;
+			path = Models;
 			sourceTree = "<group>";
 		};
-		706A00A42712A9A400563D54 /* Data */ = {
+		706A00A42712A9A400563D54 /* Sample Data */ = {
 			isa = PBXGroup;
 			children = (
+				706A00932712A8AA00563D54 /* Arrays */,
 				706A00A52712A9B700563D54 /* WheelchairData.swift */,
 				70830C4327864B3F002F1B78 /* TerminologyData.swift */,
 				70CD574927AD8A16008C1F10 /* HomeData.swift */,
 				70EFE5382B9B78BE00BB2524 /* ModelPriceData.swift */,
 			);
-			path = Data;
+			path = "Sample Data";
 			sourceTree = "<group>";
 		};
-		706A00A72712A9C300563D54 /* Seating */ = {
+		706A00D22712AB1200563D54 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				705ED5F22B9AC6C000280A1E /* WCModels */,
-				701D5A3D29BFAFE100688C4D /* Cards */,
-				706068D528AD863F00377026 /* Extensions */,
-				706A00A42712A9A400563D54 /* Data */,
-				706A00A12712A97700563D54 /* Model */,
-				706A00932712A8AA00563D54 /* Arrays */,
+				706A00872712A6BC00563D54 /* HomeScreenView.swift */,
+				704CF94D2B8BC6FE0018079B /* HomeScreenTabView.swift */,
+				BBDD1ABF2C0D2D49009638EB /* HomeScreenSheets */,
+				BBDD1A962C0D1A71009638EB /* Tabs */,
 			);
-			path = Seating;
+			path = Views;
 			sourceTree = "<group>";
 		};
-		706A00D22712AB1200563D54 /* AppViews */ = {
+		706A00DF2712AB4D00563D54 /* Study Cases Tab */ = {
 			isa = PBXGroup;
 			children = (
-				70830C4127864B00002F1B78 /* TerminologyView.swift */,
-				706A00852712A6BC00563D54 /* WChair_SelectorApp.swift */,
-				706A00872712A6BC00563D54 /* ContentView.swift */,
-				706A00D92712AB3900563D54 /* HomeView.swift */,
-				706A00D52712AB3800563D54 /* EnterClientData1.swift */,
-				706A00D82712AB3900563D54 /* EnterClientData2.swift */,
-				70CD574B27ADA8DE008C1F10 /* HomeCardiew.swift */,
-				7040575E29A15DC000417A7E /* HomeWelcomeScreen.swift */,
-				700F7D0E29A2B5A900DF1A23 /* DeveloperInfoView.swift */,
-				7057A8A82A0D613900430C96 /* FactsView.swift */,
-				70E178B42A0DDBAC0000331B /* FactsViewOne.swift */,
-				704CF94D2B8BC6FE0018079B /* HomeViewScreen.swift */,
-				704CF94F2B8BC76C0018079B /* ScreenSettings.swift */,
-			);
-			path = AppViews;
-			sourceTree = "<group>";
-		};
-		706A00DF2712AB4D00563D54 /* Study Cases */ = {
-			isa = PBXGroup;
-			children = (
-				7080B0C72980967400EC0E59 /* Extensions for CaseButtons */,
-				7080B0C42980915C00EC0E59 /* StudyCaseButtonViews */,
-				706A00E02712AB7000563D54 /* Case1View.swift */,
-				706A00E12712AB7000563D54 /* Case2View.swift */,
-				706A00E62712AB7100563D54 /* Case3View.swift */,
-				706A00E42712AB7100563D54 /* Case4View.swift */,
-				70670F602BAA521C00C7C32E /* Case5View.swift */,
-				70670F622BAA526C00C7C32E /* Case6View.swift */,
-				706A00E72712AB7100563D54 /* SolutionToCaseOneView.swift */,
-				706A00E32712AB7100563D54 /* SolutionToCaseTwoView.swift */,
-				706A00E22712AB7100563D54 /* SolutionToCaseThreeView.swift */,
-				706A00E82712AB7100563D54 /* SolutionToCaseFourView.swift */,
-				70670F5A2BAA505700C7C32E /* SolutionToCaseFiveView.swift */,
-				70670F5C2BAA508700C7C32E /* SolutionToCaseSixView.swift */,
+				706A00F22712AB8000563D54 /* Study Quiz */,
 				7083EA6F281D8F48006DF9C5 /* CaseStadyHomeView.swift */,
+				7080B0C42980915C00EC0E59 /* StudyCaseButtonViews */,
+				BBDD1AA02C0D20BD009638EB /* Case Views */,
+				BBDD1AA12C0D2105009638EB /* Solutions */,
 			);
-			path = "Study Cases";
+			path = "Study Cases Tab";
 			sourceTree = "<group>";
 		};
 		706A00F22712AB8000563D54 /* Study Quiz */ = {
 			isa = PBXGroup;
 			children = (
-				706A00F32712ABA200563D54 /* StudyQuiz.swift */,
+				BBDD1AA22C0D2133009638EB /* Quiz Models */,
 				706A00F42712ABA200563D54 /* QuizAnswer1View.swift */,
-				705EB65F29B7B38900BFAE92 /* StudyQuizButton.swift */,
 			);
 			path = "Study Quiz";
 			sourceTree = "<group>";
@@ -344,25 +310,77 @@
 			path = StudyCaseButtonViews;
 			sourceTree = "<group>";
 		};
-		7080B0C72980967400EC0E59 /* Extensions for CaseButtons */ = {
-			isa = PBXGroup;
-			children = (
-				7080B0C8298096A300EC0E59 /* CustomModifier.swift */,
-			);
-			path = "Extensions for CaseButtons";
-			sourceTree = "<group>";
-		};
-		70830C3C278649FC002F1B78 /* TerminologyViews */ = {
-			isa = PBXGroup;
-			children = (
-				70830C3D27864AA1002F1B78 /* TerminologyRowView.swift */,
-				70830C3F27864AC9002F1B78 /* TerminoloyDetailView.swift */,
-				7041015C27869A3000014E55 /* TerminologyHeaderView.swift */,
-			);
-			path = TerminologyViews;
-			sourceTree = "<group>";
-		};
 		70ADF494299AAFE100C4A1BE /* OnboardingCatalog */ = {
+			isa = PBXGroup;
+			children = (
+				70ADF499299AB24D00C4A1BE /* ScrollViews ?? NEVER USED */,
+			);
+			path = OnboardingCatalog;
+			sourceTree = "<group>";
+		};
+		70ADF499299AB24D00C4A1BE /* ScrollViews ?? NEVER USED */ = {
+			isa = PBXGroup;
+			children = (
+				70ADF49A299AB28200C4A1BE /* InfoDirec1.swift */,
+				70ADF49C299AB29500C4A1BE /* InfoDirec2.swift */,
+				70ADF49E299AB2A600C4A1BE /* InfoDirec3.swift */,
+			);
+			path = "ScrollViews ?? NEVER USED";
+			sourceTree = "<group>";
+		};
+		BBDD1A962C0D1A71009638EB /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				BBDD1A972C0D1AF0009638EB /* Home Tab */,
+				BBDD1A982C0D1B0B009638EB /* Assessment Tab */,
+				BBDD1A9C2C0D1CF5009638EB /* Wheelchair Types Tab */,
+				BBDD1A9F2C0D2007009638EB /* Terminology Tab */,
+				706A00DF2712AB4D00563D54 /* Study Cases Tab */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		BBDD1A972C0D1AF0009638EB /* Home Tab */ = {
+			isa = PBXGroup;
+			children = (
+				706A00D92712AB3900563D54 /* HomeView.swift */,
+				7040575E29A15DC000417A7E /* HomeWelcomeSheetView.swift */,
+				700F7D0E29A2B5A900DF1A23 /* DeveloperInfoSheetView.swift */,
+				70CD574B27ADA8DE008C1F10 /* HomeCardiew.swift */,
+				70E178B42A0DDBAC0000331B /* FactsViewOneSheetView.swift */,
+				7057A8A82A0D613900430C96 /* FactsView.swift */,
+			);
+			path = "Home Tab";
+			sourceTree = "<group>";
+		};
+		BBDD1A982C0D1B0B009638EB /* Assessment Tab */ = {
+			isa = PBXGroup;
+			children = (
+				706A00D52712AB3800563D54 /* EnterClientData1View.swift */,
+				706A00D82712AB3900563D54 /* EnterClientData2SheetView.swift */,
+				701D5A3E29BFB00100688C4D /* WheelchairCard.swift */,
+			);
+			path = "Assessment Tab";
+			sourceTree = "<group>";
+		};
+		BBDD1A9B2C0D1C51009638EB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BBDD1A992C0D1C46009638EB /* EnterDataProfile.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BBDD1A9C2C0D1CF5009638EB /* Wheelchair Types Tab */ = {
+			isa = PBXGroup;
+			children = (
+				70ADF495299AB02900C4A1BE /* CatalogMainView.swift */,
+				BBDD1A9D2C0D1DCB009638EB /* Wheelchair Views */,
+			);
+			path = "Wheelchair Types Tab";
+			sourceTree = "<group>";
+		};
+		BBDD1A9D2C0D1DCB009638EB /* Wheelchair Views */ = {
 			isa = PBXGroup;
 			children = (
 				70ADF497299AB0DE00C4A1BE /* WheelchairStdView.swift */,
@@ -371,20 +389,64 @@
 				703AED86299AC60200D16EB3 /* WheelchairBrodaView.swift */,
 				703AED88299AC61D00D16EB3 /* WheelchairPwcView.swift */,
 				703AED8A299AC66000D16EB3 /* WheelchairSeatingMattersView.swift */,
-				70ADF495299AB02900C4A1BE /* CatalogMainView.swift */,
-				70ADF499299AB24D00C4A1BE /* ScrollViews */,
+				706A00982712A8EB00563D54 /* Wheelchair subviews */,
 			);
-			path = OnboardingCatalog;
+			path = "Wheelchair Views";
 			sourceTree = "<group>";
 		};
-		70ADF499299AB24D00C4A1BE /* ScrollViews */ = {
+		BBDD1A9F2C0D2007009638EB /* Terminology Tab */ = {
 			isa = PBXGroup;
 			children = (
-				70ADF49A299AB28200C4A1BE /* InfoDirec1.swift */,
-				70ADF49C299AB29500C4A1BE /* InfoDirec2.swift */,
-				70ADF49E299AB2A600C4A1BE /* InfoDirec3.swift */,
+				7041015C27869A3000014E55 /* TerminologyHeaderView.swift */,
+				70830C3F27864AC9002F1B78 /* TerminoloyDetailView.swift */,
+				70830C3D27864AA1002F1B78 /* TerminologyRowView.swift */,
+				70830C4127864B00002F1B78 /* TerminologyView.swift */,
 			);
-			path = ScrollViews;
+			path = "Terminology Tab";
+			sourceTree = "<group>";
+		};
+		BBDD1AA02C0D20BD009638EB /* Case Views */ = {
+			isa = PBXGroup;
+			children = (
+				706A00E02712AB7000563D54 /* Case1View.swift */,
+				706A00E12712AB7000563D54 /* Case2View.swift */,
+				706A00E62712AB7100563D54 /* Case3View.swift */,
+				706A00E42712AB7100563D54 /* Case4View.swift */,
+				70670F602BAA521C00C7C32E /* Case5View.swift */,
+				70670F622BAA526C00C7C32E /* Case6View.swift */,
+			);
+			path = "Case Views";
+			sourceTree = "<group>";
+		};
+		BBDD1AA12C0D2105009638EB /* Solutions */ = {
+			isa = PBXGroup;
+			children = (
+				706A00E72712AB7100563D54 /* SolutionToCaseOneView.swift */,
+				706A00E32712AB7100563D54 /* SolutionToCaseTwoView.swift */,
+				706A00E22712AB7100563D54 /* SolutionToCaseThreeView.swift */,
+				706A00E82712AB7100563D54 /* SolutionToCaseFourView.swift */,
+				70670F5A2BAA505700C7C32E /* SolutionToCaseFiveView.swift */,
+				70670F5C2BAA508700C7C32E /* SolutionToCaseSixView.swift */,
+			);
+			path = Solutions;
+			sourceTree = "<group>";
+		};
+		BBDD1AA22C0D2133009638EB /* Quiz Models */ = {
+			isa = PBXGroup;
+			children = (
+				706A00F32712ABA200563D54 /* StudyQuiz.swift */,
+			);
+			path = "Quiz Models";
+			sourceTree = "<group>";
+		};
+		BBDD1ABF2C0D2D49009638EB /* HomeScreenSheets */ = {
+			isa = PBXGroup;
+			children = (
+				704CF94F2B8BC76C0018079B /* ScreenSettingsSheet.swift */,
+				705EB65F29B7B38900BFAE92 /* StudyQuizButtonSheet.swift */,
+				705ED5F22B9AC6C000280A1E /* ModelWheelcharSheet Views */,
+			);
+			path = HomeScreenSheets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -459,23 +521,24 @@
 			files = (
 				70830C4227864B00002F1B78 /* TerminologyView.swift in Sources */,
 				701D5A3F29BFB00100688C4D /* WheelchairCard.swift in Sources */,
-				706A00882712A6BC00563D54 /* ContentView.swift in Sources */,
-				705ED5F42B9AC6EC00280A1E /* ModelWheelchairs.swift in Sources */,
+				706A00882712A6BC00563D54 /* HomeScreenView.swift in Sources */,
+				705ED5F42B9AC6EC00280A1E /* ModelWheelchairsSheetView.swift in Sources */,
 				70CD574C27ADA8DE008C1F10 /* HomeCardiew.swift in Sources */,
 				7057A8A92A0D613900430C96 /* FactsView.swift in Sources */,
 				70830C3E27864AA1002F1B78 /* TerminologyRowView.swift in Sources */,
 				703AED83299AC5A200D16EB3 /* WheelchairHtrView.swift in Sources */,
 				70670F632BAA526C00C7C32E /* Case6View.swift in Sources */,
-				706068D728AD865A00377026 /* CustomViewModifiers.swift in Sources */,
+				706068D728AD865A00377026 /* MacroStyle.swift in Sources */,
 				706A00F52712ABA200563D54 /* StudyQuiz.swift in Sources */,
 				70670F5B2BAA505700C7C32E /* SolutionToCaseFiveView.swift in Sources */,
-				7040575F29A15DC000417A7E /* HomeWelcomeScreen.swift in Sources */,
+				BBDD1A9A2C0D1C46009638EB /* EnterDataProfile.swift in Sources */,
+				7040575F29A15DC000417A7E /* HomeWelcomeSheetView.swift in Sources */,
 				703AED89299AC61D00D16EB3 /* WheelchairPwcView.swift in Sources */,
-				704CF94E2B8BC6FE0018079B /* HomeViewScreen.swift in Sources */,
+				704CF94E2B8BC6FE0018079B /* HomeScreenTabView.swift in Sources */,
 				70CD574827AD8978008C1F10 /* HomeModel.swift in Sources */,
 				70670F652BAA52FA00C7C32E /* Case6Button.swift in Sources */,
-				704CF9502B8BC76C0018079B /* ScreenSettings.swift in Sources */,
-				705EB66029B7B38900BFAE92 /* StudyQuizButton.swift in Sources */,
+				704CF9502B8BC76C0018079B /* ScreenSettingsSheet.swift in Sources */,
+				705EB66029B7B38900BFAE92 /* StudyQuizButtonSheet.swift in Sources */,
 				703AED87299AC60200D16EB3 /* WheelchairBrodaView.swift in Sources */,
 				70685A442980E32A00E614AE /* Case3Button.swift in Sources */,
 				706A00962712A8D500563D54 /* DataSideMenu.swift in Sources */,
@@ -485,7 +548,7 @@
 				7083EA70281D8F48006DF9C5 /* CaseStadyHomeView.swift in Sources */,
 				706A009D2712A96E00563D54 /* WheelchairDetailView.swift in Sources */,
 				70670F5F2BAA51BD00C7C32E /* Case5Button.swift in Sources */,
-				700F7D0F29A2B5A900DF1A23 /* DeveloperInfoView.swift in Sources */,
+				700F7D0F29A2B5A900DF1A23 /* DeveloperInfoSheetView.swift in Sources */,
 				70685A422980E1FD00E614AE /* Case2Button.swift in Sources */,
 				70BA598A2A06CB3400017BE5 /* MotionAnimationView.swift in Sources */,
 				706A00EF2712AB7100563D54 /* Case3View.swift in Sources */,
@@ -494,7 +557,8 @@
 				70830C3B278647DC002F1B78 /* TerminologyModel.swift in Sources */,
 				706A00F12712AB7100563D54 /* SolutionToCaseFourView.swift in Sources */,
 				706A00A32712A99D00563D54 /* WheelchairModel.swift in Sources */,
-				706A00DD2712AB3900563D54 /* EnterClientData2.swift in Sources */,
+				706A00DD2712AB3900563D54 /* EnterClientData2SheetView.swift in Sources */,
+				BBDD1ABE2C0D2BC2009638EB /* ModelWheelchairsDetailView.swift in Sources */,
 				70ADF498299AB0DE00C4A1BE /* WheelchairStdView.swift in Sources */,
 				706A00F62712ABA200563D54 /* QuizAnswer1View.swift in Sources */,
 				706A00862712A6BC00563D54 /* WChair_SelectorApp.swift in Sources */,
@@ -503,11 +567,11 @@
 				7041015D27869A3000014E55 /* TerminologyHeaderView.swift in Sources */,
 				70670F5D2BAA508700C7C32E /* SolutionToCaseSixView.swift in Sources */,
 				70ADF49B299AB28200C4A1BE /* InfoDirec1.swift in Sources */,
-				706A00DA2712AB3900563D54 /* EnterClientData1.swift in Sources */,
+				706A00DA2712AB3900563D54 /* EnterClientData1View.swift in Sources */,
 				706A00E92712AB7100563D54 /* Case1View.swift in Sources */,
-				7080B0C9298096A300EC0E59 /* CustomModifier.swift in Sources */,
+				7080B0C9298096A300EC0E59 /* HeaderStyle.swift in Sources */,
 				70ADF496299AB02900C4A1BE /* CatalogMainView.swift in Sources */,
-				70E178B52A0DDBAC0000331B /* FactsViewOne.swift in Sources */,
+				70E178B52A0DDBAC0000331B /* FactsViewOneSheetView.swift in Sources */,
 				706A00DE2712AB3900563D54 /* HomeView.swift in Sources */,
 				706A009E2712A96E00563D54 /* WheelchairHeaderView.swift in Sources */,
 				706A00A62712A9B700563D54 /* WheelchairData.swift in Sources */,
@@ -658,7 +722,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WChair Selector/Preview Content\"";
-				DEVELOPMENT_TEAM = F8LUJQQRDY;
+				DEVELOPMENT_TEAM = RKV4UP49S6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "WChair Selector";
@@ -696,7 +760,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WChair Selector/Preview Content\"";
-				DEVELOPMENT_TEAM = F8LUJQQRDY;
+				DEVELOPMENT_TEAM = RKV4UP49S6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "WChair Selector";
