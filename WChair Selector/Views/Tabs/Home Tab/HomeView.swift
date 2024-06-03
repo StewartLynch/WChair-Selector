@@ -14,7 +14,7 @@ struct HomeView: View {
     @State var showSheet: Bool = false
     @State private var scrollID: Int?
     @State private var currentItemn = 0
-//    @State private var showHeadline: Bool = false
+    //    @State private var showHeadline: Bool = false
     
     var slideInAnimation: Animation {
         Animation.spring(response: 1.5, dampingFraction: 0.5, blendDuration: 0.5)
@@ -25,21 +25,22 @@ struct HomeView: View {
     var body: some View {
         ZStack {
             MotionAnimationView()
-//            HStack (spacing: 10){
-//                Text ("Scroll")
-//                Image(systemName: "arrow.right.circle")
-//            }
-//            .fontDesign(.serif)
-//            .foregroundColor(.accentColor)
-//            .padding(.bottom, 650)
-//            .offset(x: 0, y: showHeadline ? 5 : 20)
-//            .animation(slideInAnimation, value: showHeadline)
-//            .onAppear(perform: {
-//                showHeadline = true
-//            })
-//            .onDisappear(perform: {
-//                showHeadline = false
-//            })
+            //            HStack (spacing: 10){
+            //                Text ("Scroll")
+            //                Image(systemName: "arrow.right.circle")
+            //            }
+            //            .fontDesign(.serif)
+            //            .foregroundColor(.accentColor)
+            //            .padding(.bottom, 650)
+            //            .offset(x: 0, y: showHeadline ? 5 : 20)
+            //            .animation(slideInAnimation, value: showHeadline)
+            //            .onAppear(perform: {
+            //                showHeadline = true
+            //            })
+            //            .onDisappear(perform: {
+            //                showHeadline = false
+            //            })
+            ScrollView {
                 VStack {
                     ScrollView(.horizontal, showsIndicators: false) {
                         HStack(spacing : 0){
@@ -55,7 +56,7 @@ struct HomeView: View {
                             }
                         }
                         .scrollTargetLayout()
-//                        .padding(.top, 125)
+                        //                        .padding(.top, 125)
                         .padding(.horizontal, 0)
                     }
                     .scrollPosition(id: $scrollID)
@@ -85,14 +86,14 @@ struct HomeView: View {
                             }
                             Spacer()
                         }.padding(.bottom, 160)
-    //                        .offset(x: 0, y: showHeadline ? 5 : 20)
-    //                        .animation(slideInAnimation, value: showHeadline)
-    //                        .onAppear(perform: {
-    //                            showHeadline = true
-    //                        })
-    //                        .onDisappear(perform: {
-    //                            showHeadline = false
-    //                        })
+                        //                        .offset(x: 0, y: showHeadline ? 5 : 20)
+                        //                        .animation(slideInAnimation, value: showHeadline)
+                        //                        .onAppear(perform: {
+                        //                            showHeadline = true
+                        //                        })
+                        //                        .onDisappear(perform: {
+                        //                            showHeadline = false
+                        //                        })
                     }
                     .onTapGesture {
                         self.hapticImpact.impactOccurred()
@@ -102,7 +103,7 @@ struct HomeView: View {
                         HomeWelcomeSheetView()
                     }
                 }
-                .scrollIfNecessar()
+            }
         }
     }
 }
