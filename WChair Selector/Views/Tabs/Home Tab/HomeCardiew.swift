@@ -18,7 +18,6 @@ struct HomeCardiew: View {
         ZStack {
 //            MotionAnimationView()
             VStack (alignment: .center, spacing: 10){
-                
                 Image(home.image)
                     .resizable()
                     .scaledToFit()
@@ -26,6 +25,7 @@ struct HomeCardiew: View {
                     .background(LinearGradient(gradient: Gradient(colors: [Color(red:450/255, green: 450/255, blue: 450/255),Color(red: 250/255, green:250/255, blue: 250/255)]), startPoint: .topLeading, endPoint: .bottomTrailing).opacity(0.3))
                     .cornerRadius(25)
                     .shadow(color: Color.gray, radius: 3, x: 5, y: 3)
+//                    .padding()
                     .onTapGesture {
                         isPresentingActionSheet = true
                     }

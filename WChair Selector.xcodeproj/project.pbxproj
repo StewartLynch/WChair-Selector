@@ -75,6 +75,7 @@
 		70E178B52A0DDBAC0000331B /* FactsViewOneSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E178B42A0DDBAC0000331B /* FactsViewOneSheetView.swift */; };
 		70EFE5372B9B778300BB2524 /* ModelPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EFE5362B9B778300BB2524 /* ModelPrice.swift */; };
 		70EFE5392B9B78BE00BB2524 /* ModelPriceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EFE5382B9B78BE00BB2524 /* ModelPriceData.swift */; };
+		BB5772D32C0D621F00B236AF /* ScrollIfNecessary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5772D22C0D621F00B236AF /* ScrollIfNecessary.swift */; };
 		BBDD1A9A2C0D1C46009638EB /* EnterDataProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDD1A992C0D1C46009638EB /* EnterDataProfile.swift */; };
 		BBDD1ABE2C0D2BC2009638EB /* ModelWheelchairsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDD1ABD2C0D2BC2009638EB /* ModelWheelchairsDetailView.swift */; };
 /* End PBXBuildFile section */
@@ -149,6 +150,7 @@
 		70E178B42A0DDBAC0000331B /* FactsViewOneSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsViewOneSheetView.swift; sourceTree = "<group>"; };
 		70EFE5362B9B778300BB2524 /* ModelPrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelPrice.swift; sourceTree = "<group>"; };
 		70EFE5382B9B78BE00BB2524 /* ModelPriceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelPriceData.swift; sourceTree = "<group>"; };
+		BB5772D22C0D621F00B236AF /* ScrollIfNecessary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollIfNecessary.swift; sourceTree = "<group>"; };
 		BBDD1A992C0D1C46009638EB /* EnterDataProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterDataProfile.swift; sourceTree = "<group>"; };
 		BBDD1ABD2C0D2BC2009638EB /* ModelWheelchairsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelWheelchairsDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -261,6 +263,7 @@
 				70830C4327864B3F002F1B78 /* TerminologyData.swift */,
 				70CD574927AD8A16008C1F10 /* HomeData.swift */,
 				70EFE5382B9B78BE00BB2524 /* ModelPriceData.swift */,
+				BB5772D22C0D621F00B236AF /* ScrollIfNecessary.swift */,
 			);
 			path = "Sample Data";
 			sourceTree = "<group>";
@@ -540,6 +543,7 @@
 				704CF9502B8BC76C0018079B /* ScreenSettingsSheet.swift in Sources */,
 				705EB66029B7B38900BFAE92 /* StudyQuizButtonSheet.swift in Sources */,
 				703AED87299AC60200D16EB3 /* WheelchairBrodaView.swift in Sources */,
+				BB5772D32C0D621F00B236AF /* ScrollIfNecessary.swift in Sources */,
 				70685A442980E32A00E614AE /* Case3Button.swift in Sources */,
 				706A00962712A8D500563D54 /* DataSideMenu.swift in Sources */,
 				70ADF49F299AB2A600C4A1BE /* InfoDirec3.swift in Sources */,
